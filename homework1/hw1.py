@@ -1,6 +1,7 @@
 """ This set of functions should return the appropriate data type"""
 
 
+
 def return_number_3():
     """ This function should return an integer with the value of 3"""
 
@@ -28,7 +29,7 @@ def return_without_starting_ending_whitespace(input_string):
     Return it but with the surrounding (left and right) whitespace stripped."""
 
     return_value = input_string
-    return return_value.stripped()
+    return return_value.stripped
 
 
 def return_addition(first_number, second_number):
