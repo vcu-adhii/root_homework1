@@ -28,7 +28,7 @@ def return_without_starting_ending_whitespace(input_string):
     Return it but with the surrounding (left and right) whitespace stripped."""
 
     return_value = input_string
-    return return_value.stripped
+    return return_value.stripped()
 
 
 def return_addition(first_number, second_number):
