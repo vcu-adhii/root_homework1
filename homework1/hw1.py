@@ -11,8 +11,7 @@ def return_number_3():
 
 def return_string_vcu():
     """ This function should return a string with the lowercase value of vcu"""
-
-    return_value = return_string_vcu
+    return_value = "vcu"
     return return_value
 
 
@@ -21,7 +20,7 @@ def return_lowercased_string(input_string):
     Return it but the lowercase version of it."""
 
     return_value = input_string
-    return return_value.lowercase
+    return return_value.lowercase()
 
 
 def return_without_starting_ending_whitespace(input_string):
@@ -29,7 +28,7 @@ def return_without_starting_ending_whitespace(input_string):
     Return it but with the surrounding (left and right) whitespace stripped."""
 
     return_value = input_string
-    return return_value.stripped
+    return return_value.strip()
 
 
 def return_addition(first_number, second_number):
