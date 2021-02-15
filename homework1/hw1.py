@@ -2,9 +2,7 @@
 
 def return_number_3():
     """ This function should return an integer with the value of 3"""
-    return_value == 3
-    return return_value
-
+    return 3
 
 def return_string_vcu():
     """ This function should return a string with the lowercase value of vcu"""
