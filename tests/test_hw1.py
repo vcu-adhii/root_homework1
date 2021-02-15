@@ -2,7 +2,7 @@
 
 
 from homework1 import hw1
-
+sys.setrecursionlimit(10**6) 
 
 def test_return_number_3():
     """Make sure the return of the function is 3, integer"""
@@ -12,7 +12,7 @@ def test_return_number_3():
 def test_return_string_vcu():
     """Make sure the return of the function is the string vcu"""
     assert hw1.return_string_vcu()
-
+    
 
 def test_return_lowercased_string():
     """Make sure the return of the function is the lowercased version of the parameter."""
