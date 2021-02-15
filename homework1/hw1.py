@@ -2,7 +2,7 @@
 
 def return_number_3():
     """ This function should return an integer with the value of 3"""
-    return_value = 3
+    return_value == 3
     return return_value
 
 
@@ -30,4 +30,3 @@ def return_addition(first_number, second_number):
     """ Return the two numbers added together. """
     return_value = first_number + second_number
     return return_value
-    
