@@ -5,7 +5,7 @@
 def return_number_3():
     """ This function should return an integer with the value of 3"""
 
-    return_value = 
+    return_value = 3
     return return_value
 
 
