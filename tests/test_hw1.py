@@ -1,7 +1,7 @@
 """Test cases are important."""
 
 
-import hw1
+from homework1 import hw1
 
 
 def test_return_number_3():
