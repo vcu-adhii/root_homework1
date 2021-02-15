@@ -3,7 +3,6 @@
 
 from homework1 import hw1
 
-
 def test_return_number_3():
     """Make sure the return of the function is 3, integer"""
     assert hw1.return_number_3() == 3
